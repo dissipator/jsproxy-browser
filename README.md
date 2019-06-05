@@ -21,7 +21,7 @@ https://jsproxy.tk/-----https://www.google.com
 # 安装
 
 ```bash
-curl https://raw.githubusercontent.com/EtherDream/jsproxy/master/i.sh | bash
+curl https://raw.githubusercontent.com/dissipator/jsproxy-server/master/i.sh | bash
 ```
 
 * 自动安装目前只支持 Linux x64，并且需要 root 权限
