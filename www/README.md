@@ -1,1 +1,1 @@
-该目录最终发布到 Web 服务器，或者 GitHub Pages，例如 https://zjcqoo.github.io
+该目录存放首页静态资源，内容和 gh-pages 分支相同
