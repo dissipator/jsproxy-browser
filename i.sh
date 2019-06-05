@@ -5,9 +5,9 @@
 JSPROXY_VER=master
 OPENRESTY_VER=1.15.8.1
 
-SRC_URL=https://raw.githubusercontent.com/EtherDream/jsproxy/$JSPROXY_VER
+SRC_URL=https://raw.githubusercontent.com/dissipator/jsproxy-server/$JSPROXY_VER
 BIN_URL=https://raw.githubusercontent.com/EtherDream/jsproxy-bin/master
-ZIP_URL=https://codeload.github.com/EtherDream/jsproxy/tar.gz
+ZIP_URL=https://codeload.github.com/dissipator/server/tar.gz
 
 SUPPORTED_OS="Linux-x86_64"
 OS="$(uname)-$(uname -m)"
@@ -211,7 +211,7 @@ main() {
   local line=$(iptables -t nat -L --line-numbers | grep "acme challenge svc")
   iptables -t nat -D PREROUTING ${line%% *}
 
-  log "安装完成。后续维护参考 https://github.com/EtherDream/jsproxy"
+  log "安装完成。后续维护参考 https://github.com/dissipator/jsproxy-server"
 }
 
 
